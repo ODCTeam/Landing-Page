@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 html ::-webkit-scrollbar{
     background-color: #040925;
@@ -19,6 +20,12 @@ html ::-webkit-scrollbar-thumb{
     font-size: 25px;
     margin-left: 10px;
     font-weight: 600;
+}
+.grad-txt{
+    background-image: linear-gradient(265.86deg, #1198FF 9.38%, #E336FF 92%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 .white-bg{
     background:#ffffff
@@ -2188,37 +2195,7 @@ hr{
     -o-transition:.4s;
     transition:.4s
 }
-.main-header .main-menu ul ul.submenu{
-    position:absolute;
-    width:170px;
-    left:0;
-    top:90%;
-    visibility:hidden;
-    opacity:0;
-    box-shadow:0 0 10px 3px rgba(0,0,0,0.05);
-    padding:17px 0;
-    -webkit-transition:.3s;
-    -moz-transition:.3s;
-    -o-transition:.3s;
-    transition:.3s
-}
-.main-header .main-menu ul ul.submenu>li{
-    margin-left:7px;
-    display:block
-}
-.main-header .main-menu ul ul.submenu>li>a{
-    padding:6px 10px !important;
-    font-size:16px;
-    color:#fff
-}
-.main-header .main-menu ul ul.submenu>li>a::after{
-    position:unset
-}
-.main-header .main-menu ul ul.submenu>li>a:hover{
-    color:#fff;
-    background:none;
-    padding-left:13px !important
-}
+
 .button-header.margin-left{
     margin-left:32px !important
 }
@@ -2339,6 +2316,7 @@ hr{
 .mobile_menu .slicknav_menu .slicknav_nav .slicknav_item a{
     padding:0 !important
 }
+
 .slider-height{
     min-height:860px;
     background-repeat:no-repeat;
@@ -2700,7 +2678,6 @@ form.search-box .input-form .world-form i{
     display:block;
     line-height:50px
 }
-
 .team-area .single-cat{
     -webkit-transition:.4s;
     -moz-transition:.4s;
@@ -2712,8 +2689,9 @@ form.search-box .input-form .world-form i{
     margin:40px;
     padding: 20px;
     border: 1px solid;
+    background-origin: border-box;
     border-image-source: linear-gradient(265.86deg, #1198FF 9.38%, #E336FF 92%);
-    border-image-slice: 1;
+    border-image-slice:1;
     background:  conic-gradient(from 157.39deg at 27.51% -19.01%, rgba(57, 140, 203, 0.26) 0deg, rgba(255, 255, 255, 0.08) 64.79deg, rgba(255, 255, 255, 0.04) 132.56deg, rgba(255, 255, 255, 0.04) 162.53deg, rgba(255, 255, 255, 0.04) 184.35deg, rgba(255, 255, 255, 0.01) 218.91deg, rgba(255, 255, 255, 0.02) 309.06deg, rgba(74, 139, 207, 0.26) 360deg);;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px){
@@ -2786,160 +2764,40 @@ form.search-box .input-form .world-form i{
 .team-area .single-cat:hover .cat-cap h5{
     color:#000
 }
-.about-area1 .about-caption{
-    padding-left:50px
-}
-.about-area1 .about-caption.about-caption3{
-    padding-top:0 !important
-}
-@media only screen and (min-width: 1200px) and (max-width: 1600px){
-    .about-area1 .about-caption{
-        padding-left:50px
-    }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-    .about-area1 .about-caption{
-        padding-left:0px
-    }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    .about-area1 .about-caption{
-        padding-top:50px;
-        padding-left:0px
-    }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px){
-    .about-area1 .about-caption{
-        padding-top:50px;
-        padding-left:0px
-    }
-}
-@media (max-width: 575px){
-    .about-area1 .about-caption{
-        padding-top:40px;
-        padding-left:0px
-    }
-}
-.about-area1 .about-caption .pera-top{
-    font-size:16px;
-    font-weight:500;
-    color:#212025;
-    margin-bottom:25px
-}
-.about-area1 .about-caption .pera-bottom{
-    font-size:16px;
-    color:#212025;
-    font-weight:300
-}
-.about-area1 .about-img img{
-    width:100%
-}
-.about-area1 ul li{
-    display:flex;
-    margin-bottom:20px
-}
-.about-area1 ul li img{
-    margin-right:20px
-}
-.about-area1 ul li p{
-    margin-bottom:0
-}
-@media (max-width: 575px){
-    .about-caption{
-        margin-bottom:35px
-    }
-}
-.pricing-card-area{
-    position:relative
-}
-.pricing-card-area.pricing-card-area2{
-    margin-top:-230px;
-    position:unset
-}
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    .pricing-card-area.pricing-card-area2{
-        margin-top:-130px
-    }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px){
-    .pricing-card-area.pricing-card-area2{
-        margin-top:-130px
-    }
-}
-@media (max-width: 575px){
-    .pricing-card-area.pricing-card-area2{
-        margin-top:-130px
-    }
-}
-.pricing-card-area.pricing-card-area2::before{
-    position:unset
-}
-.pricing-card-area.pricing-card-area2::after{
-    position:unset;
-    border:0
-}
-.pricing-card-area{
-    background:#040925;
-}
 
+/* Pricing Area start */
+.pricing-card-area{
+    margin-bottom: 40px;
+}
 .pricing-card-area .single-card{
-    background:linear-gradient( 144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61% );;
-    padding:70px 0px;
+    background: conic-gradient(from 157.39deg at 27.51% -19.01%, rgba(57, 140, 203, 0.26) 0deg, rgba(255, 255, 255, 0.08) 64.79deg, rgba(255, 255, 255, 0.04) 132.56deg, rgba(255, 255, 255, 0.04) 162.53deg, rgba(255, 255, 255, 0.04) 184.35deg, rgba(255, 255, 255, 0.01) 218.91deg, rgba(255, 255, 255, 0.02) 309.06deg, rgba(74, 139, 207, 0.26) 360deg);
+    filter: blur(0px);
+    border-radius: 15px;
+    padding:0px 0px;
     -webkit-box-shadow:0 8px 26px rgba(67,40,124,0.08);
-    border-radius:8px
+    border-radius:8px;
+    width: 320px;
+    height:444px;
+    padding: 3rem;
 }
-.pricing-card-area .single-card .card-top{
-    padding:0 26px
+.pricing-card-area .profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 25px;
 }
-.pricing-card-area .single-card .card-top img{
-    margin-bottom:20px
+.pricing-card-area .profile h3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
 }
-.pricing-card-area .single-card .card-top p{
-    color:#3B4855;
-    font-size:15px;
-    margin-bottom:8px
-}
-.pricing-card-area .single-card .card-top h4{
-    font-size:25px;
-    font-weight:600;
-    line-height:1.3;
-    margin-bottom:25px
-}
-.pricing-card-area .single-card .card-mid{
-    margin-bottom:25px;
-    padding-bottom:26px;
-    border-bottom:1px solid #E7E6EB
-}
-.pricing-card-area .single-card .card-mid h4{
-    color:#4C1E51;
-    font-size:32px;
-    font-weight:600
-}
-.pricing-card-area .single-card .card-mid h4 span{
-    color:#838a9b;
-    font-size:12px
-}
-.pricing-card-area .single-card .card-bottom ul li{
-    color:#717081;
-    font-weight:300;
-    margin-bottom:23px;
-    font-size:16px
-}
-.pricing-card-area .single-card .card-bottom ul li:last-child{
-    margin-bottom:46px
-}
-.pricing-card-area .single-card .card-bottom .borders-btn{
-    color:#F067FF;
-    padding:10px 64px;
-    background:none;
-    border:1px solid #F067FF;
-    display:inline-block;
-    color:#F067FF;
-    border-radius:30px;
-    text-transform:uppercase
-}
-.pricing-card-area .single-card:hover .card-bottom .borders-btn{
-    color:#fff !important
+.pricing-card-area .profile h3 >span{
+    font-size: 10px;
+    color: #ccc;
+    margin-top: 3px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
     .work-company .single-logo img{
@@ -3226,16 +3084,14 @@ form.search-box .input-form .world-form i{
     outline:0
 }
 .footer-wrappr{
-    background-size:cover;
-    background-position:right;
-    background-repeat:no-repeat;
     background-color: #0B0038;
+    height: 500px;
+    overflow: hidden;
 }
 .footer-area .footer-pera p{
     color:#C2C5DB;
     padding-right:52px;
     font-size:16px;
-    margin-bottom:50px;
     line-height:1.8
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -3249,7 +3105,6 @@ form.search-box .input-form .world-form i{
 .footer-area .footer-tittle h4{
     color:#fff;
     font-size:22px;
-    margin-bottom:29px;
     font-weight:500
 }
 .footer-area .footer-tittle ul li{
@@ -3298,9 +3153,6 @@ form.search-box .input-form .world-form i{
 }
 .footer-area .info.error{
     color:#F067FF
-}
-.footer-bottom-area .footer-border{
-    padding:33px 0px 20px;
 }
 .footer-bottom-area .footer-copy-right p{
     color:#C2C5DB;
@@ -5730,3 +5582,10 @@ b,sup,sub,u,del{
     margin-bottom:10px
 }
  
+
+
+
+
+
+
+
