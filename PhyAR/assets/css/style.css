@@ -3787,8 +3787,24 @@ b,sup,sub,u,del{
 
 
 
+.main-btn , .main-btn:focus{
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    background: linear-gradient(92.41deg, #6812C8 2.02%, #3A82FF 113.68%);
+    font-weight: 600;
+    transition: all 0.25s ease;
+    
+}
 
-
+.main-btn:hover{ 
+    color: #fff;
+    background: conic-gradient(from 157.39deg at 27.51% -19.01%, rgba(57, 140, 203, 0.26) 0deg, rgba(255, 255, 255, 0.08) 64.79deg, rgba(255, 255, 255, 0.04) 132.56deg, rgba(255, 255, 255, 0.04) 162.53deg, rgba(255, 255, 255, 0.04) 184.35deg, rgba(255, 255, 255, 0.01) 218.91deg, rgba(255, 255, 255, 0.02) 309.06deg, rgba(74, 139, 207, 0.26) 360deg);
+    transform: translate(10px);
+    transition: all 0.25s ease;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -3871,10 +3887,9 @@ b,sup,sub,u,del{
     transition: all 0.25s ease;
 }
   
-.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
+.getstarted:hover, .navbar .getstarted:focus:hover {
     color: #fff;
-    background: linear-gradient(92.17deg, rgba(57, 140, 203, 0.26) -0.37%, rgba(255, 255, 255, 0.08) 24.4%, rgba(255, 255, 255, 0.04) 35.43%, rgba(255, 255, 255, 0.04) 49.42%, rgba(255, 255, 255, 0.01) 58.76%, rgba(255, 255, 255, 0.02) 68.06%, rgba(74, 139, 207, 0.26) 96.86%);
-    box-shadow: inset 0px 0px 8px 3px rgba(255, 255, 255, 0.24);
+    background: conic-gradient(from 157.39deg at 27.51% -19.01%, rgba(57, 140, 203, 0.26) 0deg, rgba(255, 255, 255, 0.08) 64.79deg, rgba(255, 255, 255, 0.04) 132.56deg, rgba(255, 255, 255, 0.04) 162.53deg, rgba(255, 255, 255, 0.04) 184.35deg, rgba(255, 255, 255, 0.01) 218.91deg, rgba(255, 255, 255, 0.02) 309.06deg, rgba(74, 139, 207, 0.26) 360deg);
     transform: translate(10px);
     transition: all 0.25s ease;
 }
@@ -3883,11 +3898,11 @@ b,sup,sub,u,del{
     margin-left: 30px;
     border-radius: 50px;
     color: #fff;
-    background: linear-gradient(92.17deg, rgba(57, 140, 203, 0.26) -0.37%, rgba(255, 255, 255, 0.08) 24.4%, rgba(255, 255, 255, 0.04) 35.43%, rgba(255, 255, 255, 0.04) 49.42%, rgba(255, 255, 255, 0.01) 58.76%, rgba(255, 255, 255, 0.02) 68.06%, rgba(74, 139, 207, 0.26) 96.86%);
-    box-shadow: inset 0px 0px 8px 3px rgba(255, 255, 255, 0.24);
-    
-    border-image-source: linear-gradient(265.86deg, #1198FF 9.38%, #E336FF 92%);
+    background: conic-gradient(from 157.39deg at 27.51% -19.01%, rgba(57, 140, 203, 0.26) 0deg, rgba(255, 255, 255, 0.08) 64.79deg, rgba(255, 255, 255, 0.04) 132.56deg, rgba(255, 255, 255, 0.04) 162.53deg, rgba(255, 255, 255, 0.04) 184.35deg, rgba(255, 255, 255, 0.01) 218.91deg, rgba(255, 255, 255, 0.02) 309.06deg, rgba(74, 139, 207, 0.26) 360deg);
+    border: 1px solid;
+    border-image: linear-gradient(265.86deg, #1198FF 9.38%, #E336FF 92%);
     border-image-slice:1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 1366px) {
     .navbar .dropdown .dropdown ul {
