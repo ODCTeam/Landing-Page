@@ -6,7 +6,7 @@ html ::-webkit-scrollbar{
     width: 8px;
 }
 html ::-webkit-scrollbar-thumb{
-    background:linear-gradient(92.41deg, #6812C8 2.02%, #3A82FF 113.68%);
+    background:linear-gradient(180.41deg, #6812C8 2.02%, #3A82FF 113.68%);
     border-radius: 10px;
 }
 :root{
@@ -153,11 +153,7 @@ body{
 .preloader .preloader-img img{
     max-width:55px
 }
-.preloader .pere-text strong{
-    font-weight:800;
-    color:#dca73a;
-    text-transform:uppercase
-}
+
 @-webkit-keyframes zoom{
     0%{
         -webkit-transform:rotate(0deg);
@@ -647,6 +643,7 @@ body{
 @media (max-width: 768px) {
     .clients img {
         max-width: 40%;
+        margin: 30px 0px;
     }
 }
   
@@ -668,7 +665,6 @@ body{
     border-radius: 15px;
     background-origin: border-box;
     background:  var(--main-gradient);
-    filter: blur(1.5px);
     transition: all 0.25s ease-in-out;
 }
 .team-area .single-cat:hover {
@@ -676,14 +672,29 @@ body{
     transform: scale(1.1);
     transition: all 0.25s ease-in-out;
 }
+@media only screen and (min-width: 767px) and (max-width: 1000px ){
+    .team-area .single-cat{
+        margin-bottom:30px;
+        width: 320px;
+        height: 242px;
+        margin-top:10px;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px ){
+    .team-area .single-cat{
+        margin-bottom:30px;
+        width: 350px;
+        height: 242px
+    }
+}
 @media only screen and (min-width: 576px) and (max-width: 767px){
     .team-area .single-cat{
-        margin-bottom:40px
+        margin-bottom:40px;
     }
 }
 @media (max-width: 575px){
     .team-area .single-cat{
-        margin-bottom:30px
+        margin: 20px auto;
     }
 }
 .team-area .single-cat .cat-icon img{
@@ -713,6 +724,9 @@ body{
 @media (max-width: 575px){
     .team-area .single-cat .cat-cap h5>a{
         font-size:23px
+    }
+    .team-area .single-cat {
+        align-self: center;
     }
 }
 .team-area .single-cat .cat-cap > p{
@@ -763,6 +777,11 @@ body{
     backdrop-filter: blur(10px);
     transform: scale(1.1);
     transition: all 0.25s ease-in-out;
+}
+@media (max-width: 575px){
+    .pricing-card-area .single-card{
+        margin: 80px auto;
+    }
 }
 .pricing-card-area .profile{
     display: flex;
