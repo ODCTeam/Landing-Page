@@ -747,14 +747,18 @@ body{
     border-radius: 15px;
     border-radius:8px;
     width: 280px;
-    height:430px;
-    padding:50px 20px 10px 20px;
+    height:400px;
+    padding:80px 20px 10px 20px;
     transition: all 0.25s ease;
     margin-top: 80px;
     margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 .pricing-card-area .single-card:hover{
-    background: conic-gradient(from 157.39deg at 27.51% -19.01%, rgba(57, 140, 203, 0.26) 0deg, rgba(255, 255, 255, 0.08) 64.79deg, rgba(255, 255, 255, 0.04) 132.56deg, rgba(255, 255, 255, 0.04) 162.53deg, rgba(255, 255, 255, 0.04) 184.35deg, rgba(255, 255, 255, 0.01) 218.91deg, rgba(255, 255, 255, 0.02) 309.06deg, rgba(74, 139, 207, 0.26) 360deg);
+    background: conic-gradient(from 157.39deg at 27.51% -19.01%, rgba(57, 140, 203, 0.16) 0deg, rgba(255, 255, 255, 0.001) 64.79deg, rgba(255, 255, 255, 0.01) 132.56deg, rgba(255, 255, 255, 0.0001) 162.53deg, rgba(255, 255, 255, 0.0001) 184.35deg, rgba(255, 255, 255, 0.0001) 218.91deg, rgba(255, 255, 255, 0.001) 309.06deg, rgba(74, 139, 207, 0.16) 360deg);
     box-shadow:0 8px 26px rgba(67,40,124,0.08) ;
     -webkit-box-shadow:0 8px 26px rgba(67,40,124,0.08);
     backdrop-filter: blur(10px);
@@ -787,7 +791,6 @@ body{
     }
 }
 .pricing-card-area blockquote > p{
-    margin-bottom:30px;
     color:#a8a8a8;
     font-size:14px;
     line-height:1.6;
@@ -795,10 +798,10 @@ body{
 }
 .quotes{
     position: absolute;
-    inset: 0px 40%;
+    inset: -5% 40%;
 }
 .quotes img{
-    width: 30px;
+    width: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -1065,6 +1068,10 @@ section{
     color: #ccc;
     animation: display-gradient 1.5s linear infinite;
     border: 1px solid #333;
+}
+.btn-centered{
+    align-self: center;
+    position: relative;
 }
 
 /*--------------------------------------------------------------*/
