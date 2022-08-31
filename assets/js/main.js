@@ -47,15 +47,15 @@
 /* 4. MainSlider-1 */
     // h1-hero-active
     function mainSlider() {
-      var BasicSlider = $('.slider-active');
-      BasicSlider.on('init', function (e, slick) {
-        var $firstAnimatingElements = $('.single-slider:first-child').find('[data-animation]');
-        doAnimations($firstAnimatingElements);
-      });
-      BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
-        var $animatingElements = $('.single-slider[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-        doAnimations($animatingElements);
-      });
+      // var BasicSlider = $('.slider-active');
+      // BasicSlider.on('init', function (e, slick) {
+      //   var $firstAnimatingElements = $('.single-slider:first-child').find('[data-animation]');
+      //   doAnimations($firstAnimatingElements);
+      // });
+      // BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
+      //   var $animatingElements = $('.single-slider[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+      //   doAnimations($animatingElements);
+      // });
       BasicSlider.slick({
         autoplay: false,
         autoplaySpeed: 4000,
