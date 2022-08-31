@@ -41,7 +41,7 @@ body{
 #logo-img{
     width: 50px;
 }
-#brand-name{
+.brand-name{
     font-size: 25px;
     margin-left: 10px;
     font-weight: 600;
@@ -745,7 +745,6 @@ body{
 
 .pricing-card-area .single-card{
     border-radius: 15px;
-    border-radius:8px;
     width: 280px;
     height:400px;
     padding:80px 20px 10px 20px;
@@ -809,7 +808,7 @@ body{
 --------------------------------------------------------------*/
 .footer-wrappr{
     background-color: #0B0038;
-    height: 500px;
+    height: 400px;
     overflow: hidden;
 }
 .footer-area .footer-pera p{
@@ -828,7 +827,7 @@ body{
 }
 .footer-area .footer-tittle h4{
     color:#fff;
-    font-size:22px;
+    font-size:18px;
     font-weight:500
 }
 .footer-area .footer-tittle ul li{
@@ -844,7 +843,8 @@ body{
     text-decoration:underline
 }
 .footer-area .footer-tittle p{
-    color:#C2C5DB
+    color:#C2C5DB;
+    margin-top:10px
 }
 .footer-area .footer-form{
     margin-top:40px
