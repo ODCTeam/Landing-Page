@@ -53,7 +53,8 @@
         doAnimations($firstAnimatingElements);
       });
       BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
-        
+        var $animatingElements = $('.single-slider[data-slick-index="' + currentSlide + '"]').find('[data-animation]');
+        doAnimations($animatingElements);
       });
       BasicSlider.slick({
         autoplay: false,
