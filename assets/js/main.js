@@ -52,10 +52,9 @@
         var $firstAnimatingElements = $('.single-slider:first-child').find('[data-animation]');
         doAnimations($firstAnimatingElements);
       });
-      // BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
-      //   var $animatingElements = $('.single-slider[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-      //   doAnimations($animatingElements);
-      // });
+      BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
+        
+      });
       BasicSlider.slick({
         autoplay: false,
         autoplaySpeed: 4000,
