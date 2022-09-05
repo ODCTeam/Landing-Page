@@ -17,22 +17,42 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-        
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous">
-    </script>
-    <script> 
-        $(function(){
-        $("#header").load("header.html"); 
-
-        });
-    </script> 
+    
 </head>
 <body>
+    <!-- ? Preloader Start -->
+    <!-- <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/Frame.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Preloader End -->
+    <header id="header" >
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo d-flex">
+                <a href="./index.html"><img src="./assets/img/logo/Frame.svg" alt="" class="logo-img" data-aos="fade-right" data-aos-delay="400"></a>
+                <h1 class="logo-txt me-auto" data-aos="fade-left" data-aos-delay="400"><a href="./index.html"><span class="grad-txt2">PhyAR</span></a></h1>
+            </div>
+           <nav id="navbar" class="navbar">
+              <ul>
+                 <li data-aos="fade-down" data-aos-delay="100" ><a class="nav-link scrollto active" href="./index.html" >Home</a></li>
+                 <li data-aos="fade-down" data-aos-delay="150" ><a class="nav-link scrollto" href="./about.html"  >About</a></li>
+                 <li data-aos="fade-down" data-aos-delay="200" ><a class="nav-link scrollto" href="./packages.html" >Mission</a></li>
+                 <li data-aos="fade-down" data-aos-delay="250" ><a class="nav-link scrollto" href="./help.html"  >Product</a></li>
+                 <li data-aos="fade-down" data-aos-delay="300" ><a class="nav-link scrollto" href="./contact.html"  >Contact</a></li>
+                 <li data-aos="fade-down" data-aos-delay="350" ><a class="signIn scrollto" href="#l"  >> Sign In < </a></li>
+                 <li data-aos="fade-down" data-aos-delay="400" ><a class="signUp scrollto" href="#" >> Sign Up < </a></li>
+              </ul>
+              <i class="bi bi-list mobile-nav-toggle"></i>
+           </nav>
+        </div>
+    </header>
 
-    <div id="header"></div> 
     <main>
         <!-- Slider Area Start-->
         <div class="container slider-area  ">
@@ -43,9 +63,9 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-xl-5 col-lg-5 col-md-9 ">
                                 <div class="hero__caption">
-                                    <span data-aos="fade-right" data-aos-delay="100"s">Move better, Be better. consectetur adipiscing eli</span>
-                                    <h1 data-aos="fade-right"t" data-aos-delay="200"><span class="grad-txt">Powerful</span> web adipisci</h1>
-                                    <p data-aos="fade-right" data-aos-delay="300"class="muted-text"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                    <!-- <span data-aos="fade-right" data-aos-delay="100"s">Move better, Be better. consectetur adipiscing eli</span> -->
+                                    <h1 data-aos="fade-right"t" data-aos-delay="200">PhyAR<span class="grad-txt">,</span>  <br>It<span class="grad-txt">'</span>s not <span class="grad-txt">boring</span> anymore<span class="grad-txt">!</span> </h1>
+                                    <p data-aos="fade-right" data-aos-delay="300"class="muted-text">Smart devices that allow patients to perform their physical therapy treatments independently and correctly.<br> Using Mixed Reality Technology and a Smart Gloves System, patients can perform their physiotherapy exercises at the comfort of their home.</p>
                                     <!-- Slider btn -->
                                     <div class="slider-btns mb-20" data-aos="fade-right" data-aos-delay="400" >
                                         <!-- Hero-btn -->
@@ -87,7 +107,9 @@
                     <div class="col-xl-8 col-lg-8">
                         <div class="section-tittle text-center mb-90 " data-aos="fade-right" data-delay="600">
                             <h2>Most <span class="grad-txt">amazing</span> features</h2>
-                            <p >Supercharge your WordPress hosting with detailed website analytics, marketing tools. Our experts are just part of the reason Bluehost is the ideal home for your WordPress website. We're here to help you succeed!</p>
+                            <p >We provide the best solutions to make physical therapy treatments available for all the patients. We offer many training series, standard and advanced plans, enabling doctors to customize treatments and the patients to complete it at their homes independently. 
+        
+                            </p>
                         
                         </div>
                     </div>
