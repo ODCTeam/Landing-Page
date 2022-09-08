@@ -37,6 +37,10 @@ body{
 #logo-container{
     display: flex;
     align-items: center;
+    text-decoration: none;
+}
+#logo-container :hover{
+    text-decoration: none;
 }
 #logo-img{
     width: 50px;
@@ -847,7 +851,8 @@ body{
 .footer-area .footer-tittle h4{
     color:#fff;
     font-size:18px;
-    font-weight:500
+    font-weight:500;
+    margin-bottom: 1rem;
 }
 .footer-area .footer-tittle ul li{
     margin-bottom:15px
@@ -946,6 +951,10 @@ body{
 }
 .footer-padding{
     padding-top:60px;
+}
+
+.footer-title {
+    color: #fff
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .footer-padding{
