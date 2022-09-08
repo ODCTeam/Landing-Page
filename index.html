@@ -32,6 +32,8 @@
         </div>
     </div> -->
     <!-- Preloader End -->
+
+    
     <header id="header" >
         <div class="container d-flex align-items-center justify-content-between">
             <div class="logo d-flex">
@@ -43,14 +45,42 @@
                  <li data-aos="fade-down" data-aos-delay="100" ><a class="nav-link scrollto active" href="./index.html" >Home</a></li>
                  <li data-aos="fade-down" data-aos-delay="150" ><a class="nav-link scrollto" href="./about.html"  >About</a></li>
                  <li data-aos="fade-down" data-aos-delay="200" ><a class="nav-link scrollto" href="./packages.html" >Mission</a></li>
-                 <li data-aos="fade-down" data-aos-delay="250" ><a class="nav-link scrollto" href="./help.html"  >Product</a></li>
+                 <li data-aos="fade-down" data-aos-delay="250" ><a class="nav-link scrollto" href="./product.html"  >Product</a></li>
                  <li data-aos="fade-down" data-aos-delay="300" ><a class="nav-link scrollto" href="./contact.html"  >Contact</a></li>
                  <li data-aos="fade-down" data-aos-delay="350" ><a class="signIn scrollto" href="#l"  >> Sign In < </a></li>
                  <li data-aos="fade-down" data-aos-delay="400" ><a class="signUp scrollto" href="#" >> Sign Up < </a></li>
               </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
+              <!-- <i class="fa fa-bars mobile-nav-toggle"></i> -->
            </nav>
+
         </div>
+        <div class="mobile_nav">
+            <!-- Logo -->
+
+            <div class="col-xl-10 col-lg-10">
+                <div class="menu-wrapper d-flex align-items-center justify-content-end">
+                    <!-- Main-menu -->
+                    <div class="main-menu d-none d-lg-block">
+                        <nav>
+                            <ul id="navigation" class="navbar">                                                                                          
+                                <li ><a class="nav-link scrollto active" href="./index.html" >Home</a></li>
+                                <li ><a class="nav-link scrollto" href="./about.html"  >About</a></li>
+                                <li ><a class="nav-link scrollto" href="./mission.html" >Mission</a></li>
+                                <li ><a class="nav-link scrollto" href="./product.html"  >Product</a></li>
+                                <li ><a class="nav-link scrollto" href="./contact.html"  >Contact</a></li>
+                                <li ><a class="signIn scrollto" href="#"  >> Sign In < </a></li>
+                                <li ><a class="signUp scrollto" href="#" >> Sign Up < </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div> 
+            <!-- Mobile Menu -->
+            <div class="col-12">
+                <div class="mobile_menu d-block d-lg-none"></div>
+            </div>
+        </div>
+
     </header>
 
     <main>
@@ -61,10 +91,10 @@
                 <div class="single-slider d-flex align-items-center slider-height ">
                     <div class="container-fluid">
                         <div class="row align-items-center justify-content-between">
-                            <div class="col-xl-5 col-lg-5 col-md-9 ">
+                            <div class="col-xl-5 col-lg-5 col-md-9 landing-container">
                                 <div class="hero__caption">
                                     <!-- <span data-aos="fade-right" data-aos-delay="100"s">Move better, Be better. consectetur adipiscing eli</span> -->
-                                    <h1 data-aos="fade-right"t" data-aos-delay="200">PhyAR<span class="grad-txt">,</span>  <br>It<span class="grad-txt">'</span>s not <span class="grad-txt">boring</span> anymore<span class="grad-txt">!</span> </h1>
+                                    <h1 data-aos="fade-right"t" data-aos-delay="200">PhyAR<span class="grad-txt">,</span>  <br>It<span class="grad-txt">'</span>s<span class="grad-txt"> not boring<br></span> anymore<span class="grad-txt">!</span> </h1>
                                     <p data-aos="fade-right" data-aos-delay="300"class="muted-text">Smart devices that allow patients to perform their physical therapy treatments independently and correctly.<br> Using Mixed Reality Technology and a Smart Gloves System, patients can perform their physiotherapy exercises at the comfort of their home.</p>
                                     <!-- Slider btn -->
                                     <div class="slider-btns mb-20" data-aos="fade-right" data-aos-delay="400" >
@@ -74,8 +104,8 @@
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6">
-                                <div class="hero__img d-none d-lg-block f-right">
-                                    <img src="assets/img/logo/illustration.svg" alt="" data-aos="fade-right" data-aos-delay="400">
+                                <div class="hero__img d-lg-block f-right">
+                                    <img src="assets/img/logo/illustration.svg" alt="" data-aos="fade-right" data-aos-delay="400" width="100%">
                                 </div>
                             </div>
                         </div>
@@ -100,12 +130,12 @@
                </div>
             </div>
          </section>
-        <!--? Team -->
-        <section class="team-area section-padding30 section-bg1" id="features">
+        <!--? cards -->
+        <section class="cards-area section-padding30 section-bg1" id="features">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-8">
-                        <div class="section-tittle text-center mb-90 " data-aos="fade-right" data-delay="600">
+                        <div class="section-title text-center mb-90 " data-aos="fade-right" data-delay="600">
                             <h2>Most <span class="grad-txt">amazing</span> features</h2>
                             <p >We provide the best solutions to make physical therapy treatments available for all the patients. We offer many training series, standard and advanced plans, enabling doctors to customize treatments and the patients to complete it at their homes independently. 
         
@@ -186,12 +216,12 @@
             </div>
         </section>
         <!-- Services End -->
-        <!--? Pricing Card Start -->
-        <section class="pricing-card-area fix" id="Testimonials">
+        <!--? testimonials Card Start -->
+        <section class="testimonials-card-area fix" id="Testimonials">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-8 col-lg-8">
-                        <div class="section-tittle text-center mb-90" data-aos="fade-left" >
+                        <div class="section-title text-center mb-90" data-aos="fade-left" >
                             <h2>What people <span class="grad-txt">say</span> About <span class="grad-txt"> Us</span>  </h2>
                             <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools. Our experts are just part of the reason Bluehost is the ideal home for your WordPress website. We're here to help you succeed!</p>
                         </div>
@@ -252,7 +282,7 @@
                 </div>
             </div>
         </section>
-        <!-- Pricing Card End -->
+        <!-- testimonials Card End -->
     </main>
 
     <footer>
@@ -266,7 +296,7 @@
                             <div class="footer-logo ">
                                 <a href="index.html" id="logo-container"><img src="assets/img/logo/Frame.svg" alt="" id="logo-img"> <span  class="brand-name footer-title">PhyAR</span></a>
                             </div>
-                            <div class="footer-tittle ">
+                            <div class="footer-title ">
                                 <p>Subscribe our newsletter to get updates about our services</p>
                             </div>
                             <!-- Form -->
@@ -291,10 +321,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1"></div>
                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
                         <div class="single-footer-caption mb-10">
-                            <div class="footer-tittle">
+                            <div class="footer-title">
                                 <h4>Information</h4>
                                 <ul>
                                     <li><a href="about.html">About Us</a></li>
@@ -308,7 +337,7 @@
                     </div>
                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
                         <div class="single-footer-caption mb-10">
-                            <div class="footer-tittle">
+                            <div class="footer-title">
                                 <h4>Products</h4>
                                 <ul>
                                     <li><a href="index.html#features">Why choose us</a></li>
@@ -322,7 +351,7 @@
                     </div>
                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
                         <div class="single-footer-caption mb-10">
-                            <div class="footer-tittle">
+                            <div class="footer-title">
                                 <h4>Support</h4>
                                 <ul>
                                     <li><a href="#">Help Center</a></li>

@@ -160,20 +160,20 @@
 }
 
 @media (max-width: 575px){
-    .section-tittle{
+    .section-title{
         margin-bottom:20px;
         text-align:left !important
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px){
-    .section-tittle{
+    .section-title{
         margin-bottom:50px
     }
 }
-.section-tittle p{
+.section-title p{
     color:#7a8290
 }
-.section-tittle>span{
+.section-title>span{
     color:#140C40;
     font-size:20px;
     font-weight:400;
@@ -183,13 +183,13 @@
     letter-spacing:0.05em
 }
 @media (max-width: 575px){
-    .section-tittle>span{
+    .section-title>span{
         font-size:14px;
         padding-left:0px;
         text-align:left
     }
 }
-.section-tittle h2{
+.section-title h2{
     font-size:44px;
     display:block;
     font-weight:600;
@@ -198,25 +198,25 @@
     color:#fff
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
-    .section-tittle h2{
+    .section-title h2{
         font-size:41px
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px){
-    .section-tittle h2{
+    .section-title h2{
         font-size:31px
     }
 }
 @media (max-width: 575px){
-    .section-tittle h2{
+    .section-title h2{
         text-align:left;
         font-size:24px
     }
 }
-.section-tittle2 p{
+.section-title2 p{
     color:#6E7697
 }
-.section-tittle2 h2{
+.section-title2 h2{
     color:#4C1E51
 }
 

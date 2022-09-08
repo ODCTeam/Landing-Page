@@ -3,6 +3,8 @@
  * (c) 2016 Josh Cope
  * licensed under MIT
  */
+
+ 
 .slicknav_btn {
   position: relative;
   display: block;
@@ -216,6 +218,32 @@
     font-weight: 400;
     color: #000;
     text-transform: capitalize;
+}
+
+.slicknav_nav ul {
+  align-items: center;
+}
+
+.slicknav_nav li {
+  margin: 0.5em;
+  text-align: center;
+}
+
+.slicknav_nav .signIn {
+  margin-top: 1em; 
+  margin-bottom: 1.5em; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+
+}
+
+.slicknav_nav .signUp {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 .slicknav_nav .slicknav_arrow {
