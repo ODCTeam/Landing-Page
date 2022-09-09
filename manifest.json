@@ -1,0 +1,14 @@
+{
+    "name": "PhyAR",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#040925",
+    "icons": [
+        {
+            "src": "/assets/img/favicon.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}

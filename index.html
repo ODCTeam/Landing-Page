@@ -1,13 +1,22 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> PhyAR</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, height=device-height,user-scalable=no, initial-scale=1.0" />
+    <title>PhyAR</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.webmanifest">
+    <!-- This one is important for the manifest. -->
+    <meta name="theme-color" content="#0d085c" />
+
+    <!-- Reference the manifest file; is must for PWA. -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Reference the icons -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/img/favicon.png" />
+
+
 
     <!-- CSS here -->
     <link rel="stylesheet" href="./assets/css/hamburgers.min.css" >
@@ -17,7 +26,10 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    
+
+
+
+
 </head>
 <body>
     <!-- ? Preloader Start -->
@@ -47,8 +59,8 @@
                  <li data-aos="fade-down" data-aos-delay="200" ><a class="nav-link scrollto" href="./packages.html" >Mission</a></li>
                  <li data-aos="fade-down" data-aos-delay="250" ><a class="nav-link scrollto" href="./product.html"  >Product</a></li>
                  <li data-aos="fade-down" data-aos-delay="300" ><a class="nav-link scrollto" href="./contact.html"  >Contact</a></li>
-                 <li data-aos="fade-down" data-aos-delay="350" ><a class="signIn scrollto" href="#l"  >> Sign In < </a></li>
-                 <li data-aos="fade-down" data-aos-delay="400" ><a class="signUp scrollto" href="#" >> Sign Up < </a></li>
+                 <li data-aos="fade-down" data-aos-delay="350" ><a class="signIn scrollto" href="#signin"  >> Sign In < </a></li>
+                 <li data-aos="fade-down" data-aos-delay="400" ><a class="signUp scrollto" href="#signup" >> Sign Up < </a></li>
               </ul>
               <!-- <i class="fa fa-bars mobile-nav-toggle"></i> -->
            </nav>
@@ -68,8 +80,8 @@
                                 <li ><a class="nav-link scrollto" href="./mission.html" >Mission</a></li>
                                 <li ><a class="nav-link scrollto" href="./product.html"  >Product</a></li>
                                 <li ><a class="nav-link scrollto" href="./contact.html"  >Contact</a></li>
-                                <li ><a class="signIn scrollto" href="#"  >> Sign In < </a></li>
-                                <li ><a class="signUp scrollto" href="#" >> Sign Up < </a></li>
+                                <li ><a class="signIn scrollto" href="signin"  >> Sign In < </a></li>
+                                <li ><a class="signUp scrollto" href="signup" >> Sign Up < </a></li>
                             </ul>
                         </nav>
                     </div>
@@ -250,7 +262,7 @@
                         <div class="single-card  mb-30" data-aos="zoom-in" >
                             <div class="quotes"> <img src="./assets/img/icon/quotes.b5aa23e7.png" alt="quotes"></div>
                             <div class="profile">
-                                <img src="./assets/img/blog/comment_1.png" alt="profile">
+                                <img src="./assets/img/blog/comment_2.png" alt="profile">
                                 <h3>Lorem ipsum
                                     <span>Lorem ipsum dolor</span>
                                 </h3>
@@ -267,7 +279,7 @@
                         <div class="single-card  mb-30" data-aos="fade-left" >
                             <div class="quotes"> <img src="./assets/img/icon/quotes.b5aa23e7.png" alt="quotes"></div>
                             <div class="profile" >
-                                <img src="./assets/img/blog/comment_1.png" alt="profile">
+                                <img src="./assets/img/blog/comment_3.png" alt="profile">
                                 <h3>Lorem ipsum
                                     <span>Lorem ipsum dolor</span>
                                 </h3>
@@ -449,5 +461,9 @@
 
 <!-- script plugins -->
 <script src="./assets/js/script.js"></script>
+
+<!-- Reference the helper scripts. -->
+<script src="/assets/js/pwa-handler.js"></script>
+
 </body>
 </html>
