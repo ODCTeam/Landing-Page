@@ -5,7 +5,6 @@ const CACHE = "cacheV1";
 let urlsToCache = [
     "/",
     "/index.html",
-    "/assets/*",
     "/assets/img",
     "/assets/img/favicon.png", 
     "/assets/img/clock-face.png",
