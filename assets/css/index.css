@@ -298,7 +298,7 @@ body{
     text-decoration: none;
     color:var(--white);
     transition:all 0.25s ease;
-    animation: display-gradient 1.5s linear infinite;
+    animation: display-gradient 1.5s linear infinite !important;
  }
  @keyframes display-gradient {
     0%{
@@ -322,7 +322,7 @@ body{
     transition: all 0.3s ease;
 }
 .nav-link:hover , .active:focus{
-    color: transparent ;
+    color: transparent !important ;
     background-image: var(--mix-gradient); 
     background-size: 200% 200%;
     background-clip: text;
@@ -1176,7 +1176,6 @@ section{
     z-index:99
 }
 .mobile_menu .slicknav_menu{
-    background:transparent;
     margin-top:0px !important
 }
 .mobile_menu .slicknav_menu .slicknav_btn{
@@ -1188,10 +1187,6 @@ section{
 .mobile_menu .slicknav_menu .slicknav_nav{
     margin-top:9px !important;
     background: #040925;  
-}
-.mobile_menu .slicknav_menu .slicknav_nav a:hover{
-    background:transparent;
-   
 }
 .mobile_menu .slicknav_menu .slicknav_nav a{
     font-size:15px;

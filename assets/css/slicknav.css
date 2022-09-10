@@ -119,12 +119,12 @@
     margin: 2px 5px;
     text-decoration: none;
     color: #fff; }
-    .slicknav_nav a:hover {
+    /* .slicknav_nav a:hover {
       -webkit-border-radius: 0px;
       -moz-border-radius: 0px;
       border-radius: 0px;
       background: #ccc;
-      color: #222; }
+      color: #222; } */
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {
@@ -207,11 +207,11 @@
 	width: 100%;
 	border-bottom: 1px solid #eee;
 }
-.slicknav_nav a:hover {
+/* .slicknav_nav a:hover {
     background: #F79960 none repeat scroll 0 0;
     border-radius: 0;
     color: #ffffff;
-}
+} */
 
 .slicknav_nav a {
     font-size: 14px;
@@ -232,8 +232,8 @@
 .slicknav_nav .signIn {
   margin-top: 1em; 
   margin-bottom: 1.5em; 
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
   width: 40%;
 
 
@@ -250,13 +250,13 @@
     float: right;
 }
 
-.slicknav_nav .slicknav_row:hover,
+/* .slicknav_nav .slicknav_row:hover,
 .slicknav_nav .slicknav_row:hover .slicknav_arrow {
     border-radius: 0;
     background-color: #F79960;
     background-color: transparent;
     color: #000;
-}
+} */
 .slicknav_btn {
 	background-color: transparent;
 	cursor: pointer;
@@ -284,7 +284,8 @@
 	position: relative;
 	top: -9px;
 }
-.slicknav_menu .slicknav_nav a:hover {
+/* .slicknav_menu .slicknav_nav a:hover {
 	background: transparent;
 	color: #dca73a;
-}
+} */
+
