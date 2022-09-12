@@ -55,6 +55,13 @@ body{
     .container {
         max-width: 1400px;
     }
+    .img_block .container {
+        max-width: 1250px !important;
+    }
+}
+
+.img_block{
+    margin-top: 15em;
 }
 /*--------------------------------------------------------------
 # back-top section start
@@ -136,8 +143,8 @@ body{
     -webkit-box-shadow:0 1px 5px 0 rgba(35,181,185,0.15);
     box-shadow:0 1px 5px 0 rgba(35,181,185,0.15);
     background-color:var(--darkblue-bg);
-    -webkit-animation:zoom 2000ms infinite ease;
-    animation:zoom 2000ms infinite ease;
+    -webkit-animation:zoom 1000ms infinite linear;
+    animation:zoom 1000ms infinite linear;
     -webkit-transition:.6s;
     -o-transition:.6s;
     transition:.6s
@@ -529,11 +536,12 @@ body{
         right:0px
     }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1400px){
-    .slider-area .hero__img img{
-        right:0px
-    }
+.hero__img_about {
+    transform: scale(1.2) !important;
+    width: 100%;
+
 }
+
 .slider-area .slider-shape .slider-shape1{
     position:absolute;
     top:0;
