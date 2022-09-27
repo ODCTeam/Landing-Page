@@ -9,6 +9,7 @@ html ::-webkit-scrollbar-thumb{
     background:linear-gradient(180.41deg, #6812C8 2.02%, #3A82FF 113.68%);
     border-radius: 10px;
 }
+
 :root{
     /*GRADIENTS*/
     --main-gradient:conic-gradient(from 157.39deg at 27.51% -19.01%, rgba(57, 140, 203, 0.26) 0deg, rgba(255, 255, 255, 0.08) 64.79deg, rgba(255, 255, 255, 0.04) 132.56deg, rgba(255, 255, 255, 0.04) 162.53deg, rgba(255, 255, 255, 0.04) 184.35deg, rgba(255, 255, 255, 0.01) 218.91deg, rgba(255, 255, 255, 0.02) 309.06deg, rgba(74, 139, 207, 0.26) 360deg);
@@ -539,7 +540,6 @@ body{
 .hero__img_about {
     transform: scale(1.2) !important;
     width: 100%;
-
 }
 
 .slider-area .slider-shape .slider-shape1{
@@ -1203,4 +1203,107 @@ section{
 }
 .mobile_menu .slicknav_menu .slicknav_nav .slicknav_item a{
     padding:0 !important
+}
+
+
+/*--------------------------------------------------------------
+# About page style
+--------------------------------------------------------------*/
+
+/* team cards styles */
+
+.border{
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.card{
+    height: 379px;
+    width: 300px;
+    background: grey;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 63px -60px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.card0{
+    background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') center center no-repeat;
+    background-size: 300px;
+}
+.card0:hover{
+    background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') left center no-repeat;
+    background-size: 600px;
+}
+.card0:hover h2{
+    opacity: 1;
+}
+.card0:hover .fa-brands{
+    opacity: 1;
+}
+ 
+     
+.card1{
+    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') center center no-repeat;
+    background-size: 300px;
+}
+.card1:hover{
+    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') left center no-repeat;
+    background-size: 600px;
+}
+.card1:hover h2{
+    opacity: 1;
+}
+.card1:hover .fa-brands{
+    opacity: 1;
+}
+  
+.card2{
+    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat;
+    background-size: 300px;
+}
+.card2:hover{
+    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat;
+    background-size: 600px;
+}
+.card2:hover h2{
+    opacity: 1;
+}
+.card2:hover .fa-brands{
+    opacity: 1;
+}
+
+.card h2{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.card .fa-brands{
+    opacity: 0;
+    transition: opacity 1s;
+}
+.card .icons{
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
