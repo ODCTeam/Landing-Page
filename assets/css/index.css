@@ -1238,11 +1238,11 @@ section{
     margin-bottom: 4rem;
 }
 .card0{
-    background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') center center no-repeat;
+    background: url('../img/team/omar.jpg') center center no-repeat;
     background-size: 300px;
 }
 .card0:hover{
-    background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') left center no-repeat;
+    background: url('../img/team/omar.jpg') top center no-repeat;
     background-size: 600px;
 }
 .card0:hover h2{
@@ -1251,15 +1251,17 @@ section{
 .card0:hover .fa-brands{
     opacity: 1;
 }
- 
+.card0:hover .card-description{
+    opacity: 1;
+}
      
 .card1{
-    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') center center no-repeat;
+    background: url('../img/team/Taha\ \(3\).jpg') center center no-repeat;
     background-size: 300px;
 }
 .card1:hover{
-    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') left center no-repeat;
-    background-size: 600px;
+    background: url('../img/team/Taha\ \(3\).jpg') top center no-repeat;
+    background-size: 450px;
 }
 .card1:hover h2{
     opacity: 1;
@@ -1267,14 +1269,17 @@ section{
 .card1:hover .fa-brands{
     opacity: 1;
 }
+.card1:hover .card-description{
+    opacity: 1;
+}
   
 .card2{
-    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat;
+    background: url('../img/team/ismahane.jpeg') center center no-repeat;
     background-size: 300px;
 }
 .card2:hover{
-    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat;
-    background-size: 600px;
+    background: url('../img/team/ismahane.jpeg') top center no-repeat;
+    background-size: 340px;
 }
 .card2:hover h2{
     opacity: 1;
@@ -1282,13 +1287,71 @@ section{
 .card2:hover .fa-brands{
     opacity: 1;
 }
+.card2:hover .card-description{
+    opacity: 1;
+}
+
+.card3{
+    background: url('../img/team/ayoub.jpg') center center no-repeat;
+    background-size: 300px;
+}
+.card3:hover{
+    background: url('../img/team/ayoub.jpg') left center no-repeat;
+    background-size: 600px;
+}
+.card3:hover h2{
+    opacity: 1;
+}
+.card3:hover .fa-brands{
+    opacity: 1;
+}
+.card3:hover .card-description{
+    opacity: 1;
+}
+
+.card4{
+    background: url('../img/team/chaimae.jpg') center center no-repeat;
+    background-size: 300px;
+}
+.card4:hover{
+    background: url('../img/team/chaimae.jpg') center center no-repeat;
+    background-size: 500px;
+}
+.card4:hover h2{
+    opacity: 1;
+}
+.card4:hover .fa-brands{
+    opacity: 1;
+}
+.card4:hover .card-description{
+    opacity: 1;
+}
+
+.card5{
+    background: url('../img/team/Ilyas.jpg') center center no-repeat;
+    background-size: 300px;
+}
+.card5:hover{
+    background: url('../img/team/Ilyas.jpg') top center no-repeat;
+    background-size: 600px;
+}
+.card5:hover h2{
+    opacity: 1;
+}
+.card5:hover .fa-brands{
+    opacity: 1;
+}
+.card5:hover .card-description{
+    opacity: 1;
+}
 
 .card h2{
     font-family: 'Poppins', sans-serif;
-    margin: 20px;
+    margin: 10px 20px;
     font-weight: 700;
     text-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     opacity: 0;
+    text-transform: capitalize;
     transition: opacity 1s;
 }
 .card .fa-brands{
@@ -1306,6 +1369,13 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+.card .card-description{
+    color:#efefef;
+    margin-left: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    text-transform: capitalize;
 }
 #about-main section{
     overflow-x: hidden;
