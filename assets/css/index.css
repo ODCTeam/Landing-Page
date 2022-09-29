@@ -127,7 +127,7 @@ body{
     -webkit-transition:.6s;
     -o-transition:.6s;
     transition:.6s;
-    margin:0 auto
+    margin:0 auto;
 }
 .preloader .preloader-circle{
     width:100px;
@@ -1314,8 +1314,8 @@ section{
     background-size: 300px;
 }
 .card4:hover{
-    background: url('../img/team/chaimae.jpg') center center no-repeat;
-    background-size: 500px;
+    background: url('../img/team/chaimae.jpg') top center no-repeat;
+    background-size: 370px;
 }
 .card4:hover h2{
     opacity: 1;
@@ -1351,7 +1351,7 @@ section{
     font-weight: 700;
     text-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     opacity: 0;
-    text-transform: capitalize;
+    text-transform: capitalize; 
     transition: opacity 1s;
 }
 .card .fa-brands{
@@ -1369,6 +1369,7 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
 }
 .card .card-description{
     color:#efefef;
@@ -1379,4 +1380,38 @@ section{
 }
 #about-main section{
     overflow-x: hidden;
+}
+
+
+/*--------------------------------------------------------------
+# Mission page style
+--------------------------------------------------------------*/
+.headtitle{
+    font-size: 4rem;
+    font-weight: 600;
+    color:#fff;
+    margin-bottom: 3rem;
+
+}
+.info{
+    max-width: 50%;
+}
+.info-txt {
+    font-size: 1rem;
+    color: #c9c6c6;
+}
+.box >p{
+    font-size: 1rem;
+    color: #c9c6c6;
+    margin-top: 2rem;
+}
+.box{
+    padding: 20px;
+    transition:all 0.5s;
+}
+.box:hover{
+    box-shadow:0 8px 26px rgba(67,40,124,0.08) ;
+    background: conic-gradient(from 157.39deg at 27.51% -19.01%, rgba(57, 140, 203, 0.16) 0deg, rgba(255, 255, 255, 0.001) 64.79deg, rgba(255, 255, 255, 0.01) 132.56deg, rgba(255, 255, 255, 0.0001) 162.53deg, rgba(255, 255, 255, 0.0001) 184.35deg, rgba(255, 255, 255, 0.0001) 218.91deg, rgba(255, 255, 255, 0.001) 309.06deg, rgba(74, 139, 207, 0.16) 360deg);
+    transition:all 0.5s;
+    border-radius: 1rem;
 }
