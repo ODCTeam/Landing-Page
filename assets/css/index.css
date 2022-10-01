@@ -1415,3 +1415,36 @@ section{
     transition:all 0.5s;
     border-radius: 1rem;
 }
+
+
+/*--------------------------------------------------------------
+# Mission page style
+--------------------------------------------------------------*/
+.contact-title{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.contact-subtitle{
+    font-weight: 600;
+    color: white;
+    font-size: 2.5rem;
+}
+.form-contact .box{
+    background-color: #c9c6c6;
+    padding: 5px;
+    border-radius: 5px;
+}
+.boxed-btn{
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;    
+}
+.large-info{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.small-info{
+    color: #c9c6c6;
+}
