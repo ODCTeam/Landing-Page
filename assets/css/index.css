@@ -1387,12 +1387,13 @@ section{
 # Mission page style
 --------------------------------------------------------------*/
 .headtitle{
-    font-size: 4rem;
+    font-size: 5vw;
     font-weight: 600;
     color:#fff;
     margin-bottom: 3rem;
 
 }
+
 .info{
     max-width: 50%;
 }
@@ -1415,7 +1416,35 @@ section{
     transition:all 0.5s;
     border-radius: 1rem;
 }
-
+@media (max-width:900px) {
+    .headtitle{
+        font-size: 8vw;
+    }
+    .container .wrapper1{   
+        display: flex;
+        flex-direction: column;
+    }
+    .container .wrapper2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container .info{
+        max-width: 90%;
+    }
+    .wrapper img{
+        margin-top: 3rem;
+    }
+    .info-txt, .box > p{
+        font-size: 0.8rem;
+    }
+    @media (max-width:800px){
+        .wrapper3{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+}
 
 /*--------------------------------------------------------------
 # Mission page style
