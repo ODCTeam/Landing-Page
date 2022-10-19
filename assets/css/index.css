@@ -24,6 +24,9 @@ html ::-webkit-scrollbar-thumb{
     --darkblue-bg:#0B0038;
 
 }
+main{
+    overflow-x:hidden ;
+}
 body{
     font-family:'Poppins',sans-serif;
 }
@@ -538,7 +541,7 @@ body{
     }
 }
 .hero__img_about {
-    transform: scale(1.2) ;
+    transform: scale(1) ;
     width: 100%;
 }
 
@@ -722,7 +725,7 @@ body{
     width: 40px;
 }
 
-.cards-area .single-cat .cat-cap h5>a{
+.cards-area .single-cat .cat-cap h5>a , .box >h5{
     font-size:16px;
     font-weight:400;
     margin-bottom:14px;
@@ -751,7 +754,7 @@ body{
         padding-bottom: 10px;
     }
 }
-.cards-area .single-cat .cat-cap > p{
+.cards-area .single-cat .cat-cap > p , .box >p{
     margin-bottom:20px;
     color:#999;
     font-size:14px;
@@ -759,12 +762,12 @@ body{
     font-weight: 400;
 }
 @media (max-witdh: 575px){
-    .cards-area .single-cat .cat-cap > p{
+    .cards-area .single-cat .cat-cap > p ,.box >p{
         font-size: 12px;
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px){
-    .cards-area .single-cat .cat-cap > p{
+    .cards-area .single-cat .cat-cap > p ,.box >p{
         font-size:13px
     }
 }
@@ -1310,11 +1313,11 @@ section{
 }
 
 .card4{
-    background: url('../img/team/chaimae.jpg') center center no-repeat;
+    background: url('') center center no-repeat;
     background-size: 300px;
 }
 .card4:hover{
-    background: url('../img/team/chaimae.jpg') top center no-repeat;
+    background: url('') top center no-repeat;
     background-size: 370px;
 }
 .card4:hover h2{
@@ -1328,12 +1331,12 @@ section{
 }
 
 .card5{
-    background: url('../img/team/Ilyas.jpg') center center no-repeat;
+    background: url('../img/team/ILyass.jpg') center center no-repeat;
     background-size: 300px;
 }
 .card5:hover{
-    background: url('../img/team/Ilyas.jpg') top center no-repeat;
-    background-size: 600px;
+    background: url('../img/team/ILyass.jpg') top center no-repeat;
+    background-size: 500px;
 }
 .card5:hover h2{
     opacity: 1;
