@@ -1421,7 +1421,7 @@ section{
 }
 @media (max-width:900px) {
     .headtitle{
-        font-size: 8vw;
+        font-size: 6vw;
     }
     .container .wrapper1{   
         display: flex;
@@ -1451,6 +1451,9 @@ section{
 @media (max-width:3600px) {
     #doctorsvg{
         max-width:500px;
+    }
+    .headtitle{
+        font-size: 6vw;
     }
 }
 /*--------------------------------------------------------------
